@@ -25,7 +25,7 @@ const Login = () => {
         <div className="login-logo">📅</div>
         <div className="login-nav-links">
           <button className="login-btn">Login</button>
-          <a href="/signup" className="signup-link">Signup</a>
+          <a href="/signup" className="login-signup-link">Signup</a>
         </div>
       </header>
       <div className="login-form-container">

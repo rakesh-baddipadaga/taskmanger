@@ -24,13 +24,12 @@ const Signup = () => {
   const handleSubmit =async (e) => {
     e.preventDefault();
 
-    // Form validation example: Check if passwords match
     if (formData.password !== formData.confirmPassword) {
       alert('Passwords do not match');
       return;
     }
 
-    console.log('User data: ', formData);
+    console.log('signup successful');
 
     try {
         await register({ email: formData.email, password: formData.password });
