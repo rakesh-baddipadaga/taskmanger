@@ -21,7 +21,8 @@
         "src": "/(.*)",
         "dest": "/server.js"
       },
-      {"headers": {"Access-Control-Allow-Origin": "*" }} 
+      {"headers": {"Access-Control-Allow-Origin": "https://taskmanager-six-pearl.vercel.app",
+    "Access-Control-Allow-Credentials": "true"}} 
     ],
     "env": {
       "MONGO_URI": "mongodb+srv://rakeshbaddipadaga8:oLoAaLQBq1rfRULH@cluster0.nlare.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
