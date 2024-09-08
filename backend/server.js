@@ -14,7 +14,7 @@ const app = express();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: 'https://taskmanger1.vercel.app'  
+  origin: 'https://taskmanger1.vercel.app/'  
 }));
 app.use(passport.initialize());  // Initialize passport
 
