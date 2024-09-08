@@ -11,6 +11,9 @@ const app = express();
 
 app.use(express.json());
 // app.use(cors())
+
+app.options('*', cors()); 
+
 app.use(cors({
   origin: ['https://taskmanager-six-pearl.vercel.app'],
   methods:["POST","GET","PUT","DELETE"],
