@@ -8,17 +8,15 @@ const userRoutes = require('./routes/user');
 const taskRoutes = require('./routes/task');
 
 const app = express();
-// app.get('/', (req, res) => {
-//   res.send('Welcome to the API');
-// });
-// Middleware
-app.use(express.json());
-app.use(cors({
-  origin: ['https://taskmanger1.vercel.app'],
-  methods:["POST","GET"],
-  credentials:true  
 
-}));
+app.use(express.json());
+app.use(cors())
+// app.use(cors({
+//   origin: ['https://taskmanger1.vercel.app'],
+//   methods:["POST","GET"],
+//   credentials:true  
+
+// }));
 app.use(passport.initialize());  // Initialize passport
 
 // Routes
