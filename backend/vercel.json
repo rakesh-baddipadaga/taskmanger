@@ -16,7 +16,6 @@
       { "src": "/api/tasks", "dest": "/server.js" },
     { "src": "/api/tasks/(.*)", "dest": "/server.js" },
     { "src": "/api/register", "dest": "/server.js" },
-    { "src": "/api/", "dest": "/server.js" },
       {
         "src": "/(.*)",
         "dest": "/server.js"
