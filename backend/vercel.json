@@ -10,6 +10,10 @@
         "dest": "/server.js"
       },
       {
+        "src": "/api/(.*)",
+        "dest": "/server.js"
+      },
+      {
         "src": "/api/signup/(.*)",
         "dest": "/server.js"
       },
