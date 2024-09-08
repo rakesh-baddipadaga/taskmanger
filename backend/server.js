@@ -8,7 +8,9 @@ const userRoutes = require('./routes/user');
 const taskRoutes = require('./routes/task');
 
 const app = express();
-
+app.get('/', (req, res) => {
+  res.send('Welcome to the API');
+});
 // Middleware
 app.use(express.json());
 app.use(cors());
