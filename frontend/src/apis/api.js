@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://taskmanger-psi.vercel.app/api';
+const API_URL = 'https://taskmanger-psi.vercel.app//api';
 
 export const register = (data) => axios.post(`${API_URL}/register`, data);
 export const login = (data) => axios.post(`${API_URL}/`, data);
