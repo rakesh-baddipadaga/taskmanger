@@ -10,7 +10,7 @@ const taskRoutes = require('./routes/task');
 const app = express();
 
 app.use(express.json());
-app.use(cors())
+// app.use(cors())
 app.use(cors({
   origin: ['https://taskmanager-six-pearl.vercel.app'],
   methods:["POST","GET","PUT","DELETE"],

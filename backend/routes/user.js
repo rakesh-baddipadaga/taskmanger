@@ -7,7 +7,7 @@ const jwt = require('jsonwebtoken');
 
 // Local authentication routes
 router.post('/register', registerUser);
-router.post('/', loginUser);
+router.post('/login', loginUser);
 
 // Google authentication routes
 router.get('/auth/google', passport.authenticate('google', { scope: ['profile', 'email'] }));
