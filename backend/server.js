@@ -21,9 +21,9 @@ app.use(cors({
 
 }));
 
-// app.get('/', (req, res) => {
-//   res.send('Welcome to the API');
-// });
+app.get('/', (req, res) => {
+  res.send('Welcome to the API');
+});
 app.use(passport.initialize());  // Initialize passport
 
 // Routes
