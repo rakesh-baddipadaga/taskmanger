@@ -26,7 +26,6 @@ app.get('/', (req, res) => {
 });
 app.use(passport.initialize());  // Initialize passport
 
-// Routes
 app.use('/api', userRoutes);
 app.use('/api', taskRoutes);
 
