@@ -25,7 +25,8 @@
         "src": "/(.*)",
         "dest": "/server.js"
       },
-      {"headers": {"Access-Control-Allow-Origin": "https://taskmanager-six-pearl.vercel.app",
+      { "src": "/(.*)", 
+        "headers": {"Access-Control-Allow-Origin": "https://taskmanager-six-pearl.vercel.app",
     "Access-Control-Allow-Credentials": "true"}} 
     ],
     "env": {
