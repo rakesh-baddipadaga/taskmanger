@@ -29,7 +29,8 @@
     "Access-Control-Allow-Credentials": "true"}} 
     ],
     "env": {
-      "MONGO_URI": "mongodb+srv://rakeshbaddipadaga8:oLoAaLQBq1rfRULH@cluster0.nlare.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+      "MONGO_URI": "mongodb+srv://rakeshbaddipadaga8:oLoAaLQBq1rfRULH@cluster0.nlare.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+      "JWT_SECRET":"secret"
     }
   }
   
