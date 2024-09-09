@@ -16,8 +16,9 @@ app.options('*', cors());
 
 app.use(cors({
   origin: ['https://taskmanager-six-pearl.vercel.app'],
-  methods:["POST","GET","PUT","DELETE"],
-  credentials:true  
+  methods: ["POST", "GET", "PUT", "DELETE", "OPTIONS"], // Include OPTIONS
+  credentials: true,  // Allow credentials
+  allowedHeaders: ["Content-Type", "Authorization"]
 
 }));
 
